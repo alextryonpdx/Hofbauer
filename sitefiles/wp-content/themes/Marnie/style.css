@@ -1,0 +1,397 @@
+/*
+	Theme Name: Marnie
+	Theme URI: http://html5blank.com
+	Description: HTML5 Blank WordPress Theme
+	Version: 1.0.0
+	Author: Alex Tryon
+	Author URI: http://toddmotto.com
+	Tags: Blank, HTML5, CSS3
+	Template: html5blank
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*------------------------------------*\
+    MAIN
+\*------------------------------------*/
+
+/* global box-sizing */
+*,
+*:after,
+*:before {
+	box-sizing:border-box;
+	-webkit-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+html {
+	/*font-size:100%;*/
+	width: 100%;
+	/*overflow-x:hidden;*/
+	margin-bottom: 0;
+	padding-bottom: 0;
+	height: 100%;
+}
+body {
+	font:600 15px/1.4 'Halis Book', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	line-height: 1.6em;
+	color: #55565a;
+	border-bottom: 0;
+	overflow-x: hidden;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	height: 100%;
+}
+
+/* clear */
+.clear:before,
+.clear:after {
+    content:' ';
+    display:table;
+}
+
+.clear:after {
+    clear:both;
+}
+.clear {
+    zoom:1;
+}
+img {
+	max-width:100%;
+	vertical-align:bottom;
+}
+a {
+	color:rgba(67,117,55,1) !important;
+	text-decoration:none;
+	cursor: pointer;
+}
+a:hover {
+	color:#96979b !important;
+	text-decoration: none;
+}
+a:focus {
+	outline:0;
+	color:#96979b !important;
+	text-decoration: none;
+}
+a:hover,
+a:active {
+	color:#96979b !important;
+	outline:0;
+}
+input,
+input:focus {
+    border: none !important;
+    outline: 0 !important;
+}
+
+/*------------------------------------*\
+    STRUCTURE
+\*------------------------------------*/
+
+/* wrapper */
+.wrapper {
+	max-width:1280px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+/* header */
+.header {
+
+}
+/* logo */
+.logo {
+
+}
+.logo-img {
+
+}
+/* nav */
+.nav {
+
+}
+/* sidebar */
+.sidebar {
+
+}
+/* footer */
+.footer {
+	margin-bottom: 0;
+}
+
+/*------------------------------------*\
+    PAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+    IMAGES
+\*------------------------------------*/
+
+
+
+/*------------------------------------*\
+	TYPOGRAPHY
+\*------------------------------------*/
+
+@font-face {
+  font-family: 'Halis Bold';
+  src: url('fonts/HalisGR-Bold.eot');
+  src: url('fonts/HalisGR-Bold.woff2') format('woff2'),
+       url('fonts/HalisGR-Bold.woff') format('woff'),
+       url('fonts/HalisGR-Bold.ttf') format('truetype'),
+       url('fonts/HalisGR-Bold.svg#HalisGR-Bold') format('svg'),
+       url('fonts/HalisGR-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Halis Book';
+  src: url('fonts/HalisGR-Book.eot');
+  src: url('fonts/HalisGR-Book.woff2') format('woff2'),
+       url('fonts/HalisGR-Book.woff') format('woff'),
+       url('fonts/HalisGR-Book.ttf') format('truetype'),
+       url('fonts/HalisGR-Book.svg#HalisGR-Book') format('svg'),
+       url('fonts/HalisGR-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body h1 {
+	font-family: 'Halis Bold';
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+body h2 {
+	font-size: 20px;
+	font-family: 'Halis Bold';
+}
+
+body h3 {
+	font-size: 19px;
+    font-family: 'Halis Book';
+    font-weight: 500;
+    /*color: #ea9719;*/
+    color: rgba(147,17,90,1);
+    margin: 0 0 5px 0;
+}
+
+body h4 {
+	font-family: 'Halis Bold';
+	font-size: 14px;
+}
+
+body h5 {
+	font-family: 'Halis Bold';
+	font-size: 12px;
+	font-weight: bold;
+}
+
+h1.subheading,
+h2.subheading,
+h3.subheading,
+h4.subheading,
+h5.subheading {
+	font-size: 20px;
+	font-weight: 800;
+}
+h1.page-heading,
+h2.page-heading,
+h3.page-heading,
+h4.page-heading,
+h5.page-heading {
+	font-size: 28px;
+	font-weight: 800;
+}
+ol {
+    list-style: none;
+}
+/*------------------------------------*\
+    RESPONSIVE
+\*------------------------------------*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
+
+/*------------------------------------*\
+    MISC
+\*------------------------------------*/
+
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+::selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-webkit-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+::-moz-selection {
+	background:#04A4CC;
+	color:#FFF;
+	text-shadow:none;
+}
+
+/*------------------------------------*\
+    WORDPRESS CORE
+\*------------------------------------*/
+
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:11px;
+	line-height:17px;
+	margin:0;
+	padding:0 4px 5px;
+}
+.sticky {
+
+}
+.bypostauthor {
+
+}
+
+/*------------------------------------*\
+    PRINT
+\*------------------------------------*/
+
+@media print {
+	* {
+		background:transparent !important;
+		color:#000 !important;
+		box-shadow:none !important;
+		text-shadow:none !important;
+	}
+	a,
+	a:visited {
+		text-decoration:underline;
+	}
+	a[href]:after {
+		content:" (" attr(href) ")";
+	}
+	abbr[title]:after {
+		content:" (" attr(title) ")";
+	}
+	.ir a:after,
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content:"";
+	}
+	pre,blockquote {
+		border:1px solid #999;
+		page-break-inside:avoid;
+	}
+	thead {
+		display:table-header-group;
+	}
+	tr,img {
+		page-break-inside:avoid;
+	}
+	img {
+		max-width:100% !important;
+	}
+	@page {
+		margin:0.5cm;
+	}
+	p,
+	h2,
+	h3 {
+		orphans:3;
+		widows:3;
+	}
+	h2,
+	h3 {
+		page-break-after:avoid;
+	}
+}

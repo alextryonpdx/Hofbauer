@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Halis Bold';
+  src: url('fonts/HalisGR-Bold.eot');
+  src: url('fonts/HalisGR-Bold.woff2') format('woff2'),
+       url('fonts/HalisGR-Bold.woff') format('woff'),
+       url('fonts/HalisGR-Bold.ttf') format('truetype'),
+       url('fonts/HalisGR-Bold.svg#HalisGR-Bold') format('svg'),
+       url('fonts/HalisGR-Bold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Halis Book';
+  src: url('fonts/HalisGR-Book.eot');
+  src: url('fonts/HalisGR-Book.woff2') format('woff2'),
+       url('fonts/HalisGR-Book.woff') format('woff'),
+       url('fonts/HalisGR-Book.ttf') format('truetype'),
+       url('fonts/HalisGR-Book.svg#HalisGR-Book') format('svg'),
+       url('fonts/HalisGR-Book.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
